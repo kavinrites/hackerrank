@@ -1,3 +1,5 @@
+package hr;
+
 public class DivisibleBy3 {
   public static void main(String[] args) {
     System.out.println(isDivisibleBy3(-3039));
@@ -9,6 +11,7 @@ public class DivisibleBy3 {
     for(int i = 0; i<ipStr.length(); i++){
         n += Integer.valueOf(ipStr.substring(i,i+1));
     }
+    System.out.println("input :" + ip);
     System.out.println("n:" + n);
     if(n > 0 ) {
         while (n > 2) {

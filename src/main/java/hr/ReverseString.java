@@ -1,3 +1,5 @@
+package hr;
+
 public class ReverseString {
     public static void main(String[] args) {
         System.out.println(revString("kavi", 4));
